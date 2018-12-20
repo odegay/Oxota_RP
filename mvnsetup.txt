@@ -1,0 +1,15 @@
+mvn install:install-file -Dfile=/d/GIT/Shoebill/shoebill-utilities/target/shoebill-utilities-2.0-RC.jar -DgroupId=net.gtaun -DartifactId=shoebill-utilities -Dversion=2.0-RC -Dpackaging=jar
+mvn install:install-file -Dfile=/d/GIT/Shoebill/util-event/target/util-event-2.0-RC.jar -DgroupId=net.gtaun -DartifactId=util-event -Dversion=2.0-RC -Dpackaging=jar
+mvn install:install-file -Dfile=/d/GIT/Shoebill/shoebill-api/target/shoebill-api-2.0-RC.jar -DgroupId=net.gtaun -DartifactId=shoebill-api -Dversion=2.0-RC -Dpackaging=jar
+
+mvn install:install-file -Dfile=/d/GIT/Shoebill/shoebill-utilities/target/shoebill-utilities-2.0-RC.jar
+
+
+!!!Changes in pom.xml
+<repositories>
+		<repository>
+			<id>gtaun-local-repo</id>
+			<name>GTAUN Local Repository</name>
+			<url>file://d:/maven/repo/net/gtaun/</url>
+		</repository>
+	</repositories>
