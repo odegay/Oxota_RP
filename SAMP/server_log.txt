@@ -7,7 +7,24 @@ SA-MP Dedicated Server
 ----------------------
 v0.3.7-R2, (C)2005-2015 SA-MP Team
 
-[00:49:58] Error: Your password must be changed from the default password, please change it.
+[12:29:03] filterscripts = ""  (string)
+[12:29:03] 
+[12:29:03] Server Plugins
+[12:29:03] --------------
+[12:29:03]  Loading plugin: Shoebill
+[12:29:03]   > Shoebill 2.0 NativePlugin for SA-MP 0.3.7 by MK124, JoJLlmAn & 123marvin123
+[12:29:03]   > The Java VM has been successfully created.
+[12:29:05]   > Error: Couldn't create Shoebill object.
+[12:29:05]   > Please make sure that you use the correct launcher for this plugin.
+[12:29:05]   Loaded.
+[12:29:05]  Loaded 1 plugins.
+
+[12:29:05] 
+[12:29:05] Filterscripts
+[12:29:05] ---------------
+[12:29:05]   Loaded 0 filterscripts.
+
+[12:29:05] Number of vehicle models: 0
 
 ----------
 Loaded log file: "server_log.txt".
@@ -17,79 +34,24 @@ SA-MP Dedicated Server
 ----------------------
 v0.3.7-R2, (C)2005-2015 SA-MP Team
 
-[00:50:13] 
-[00:50:13] Server Plugins
-[00:50:13] --------------
-[00:50:13]  Loaded 0 plugins.
+[12:31:00] filterscripts = ""  (string)
+[12:31:00] 
+[12:31:00] Server Plugins
+[12:31:00] --------------
+[12:31:00]  Loading plugin: Shoebill
+[12:31:00]   > Shoebill 2.0 NativePlugin for SA-MP 0.3.7 by MK124, JoJLlmAn & 123marvin123
+[12:31:00]   > The Java VM has been successfully created.
+[12:31:01]   > Error: Couldn't create Shoebill object.
+[12:31:01]   > Please make sure that you use the correct launcher for this plugin.
+[12:31:01]   Loaded.
+[12:31:01]  Loaded 1 plugins.
 
-[00:50:13] 
-[00:50:13] Filterscripts
-[00:50:13] ---------------
-[00:50:13]   Loading filterscript 'gl_actions.amx'...
-[00:50:13]   Loading filterscript 'gl_realtime.amx'...
-[00:50:13]   Loading filterscript 'gl_property.amx'...
-[00:50:13] 
------------------------------------
-[00:50:13] Grand Larceny Property Filterscript		
-[00:50:13] -----------------------------------
+[12:31:01] 
+[12:31:01] Filterscripts
+[12:31:01] ---------------
+[12:31:01]   Loaded 0 filterscripts.
 
-[00:50:13]   Loading filterscript 'gl_mapicon.amx'...
-[00:50:13]   Loading filterscript 'ls_elevator.amx'...
-[00:50:13]   Loading filterscript 'attachments.amx'...
-[00:50:13]   Loading filterscript 'skinchanger.amx'...
-[00:50:13] 
---Admin Player Skin Changer Loaded
-
-[00:50:13]   Loading filterscript 'vspawner.amx'...
-[00:50:13] 
---Admin Vehicle Spawner Loaded
-
-[00:50:13]   Loading filterscript 'ls_mall.amx'...
-[00:50:13]   Loading filterscript 'ls_beachside.amx'...
-[00:50:13] 
-
-[00:50:13]   |---------------------------------------------------
-[00:50:13]   |--- LS BeachSide Filterscript
-[00:50:13]   |--  Script v1.03
-[00:50:13]   |--  19th April 2015
-[00:50:13]   |---------------------------------------------------
-[00:50:13]   |--  LS BeachSide Building Elevator created
-[00:50:13]   |---------------------------------------------------
-[00:50:13]   Loaded 10 filterscripts.
-
-[00:50:13] Loaded 3 vehicles from: vehicles/trains.txt
-[00:50:13] Loaded 3 vehicles from: vehicles/pilots.txt
-[00:50:13] Loaded 15 vehicles from: vehicles/lv_law.txt
-[00:50:13] Loaded 39 vehicles from: vehicles/lv_airport.txt
-[00:50:13] Loaded 255 vehicles from: vehicles/lv_gen.txt
-[00:50:13] Loaded 38 vehicles from: vehicles/sf_law.txt
-[00:50:13] Loaded 35 vehicles from: vehicles/sf_airport.txt
-[00:50:13] Loaded 353 vehicles from: vehicles/sf_gen.txt
-[00:50:13] Loaded 24 vehicles from: vehicles/ls_law.txt
-[00:50:13] Loaded 37 vehicles from: vehicles/ls_airport.txt
-[00:50:13] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
-[00:50:13] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
-[00:50:13] Loaded 71 vehicles from: vehicles/whetstone.txt
-[00:50:13] Loaded 168 vehicles from: vehicles/bone.txt
-[00:50:13] Loaded 61 vehicles from: vehicles/flint.txt
-[00:50:13] Loaded 96 vehicles from: vehicles/tierra.txt
-[00:50:13] Loaded 96 vehicles from: vehicles/red_county.txt
-[00:50:13] Total vehicles from files: 1781
-[00:50:13] Reading File: blank
-[00:50:13] Reading File: properties/houses.txt
-[00:50:13] Reading File: properties/businesses.txt
-[00:50:13] Reading File: properties/banks.txt
-[00:50:13] Reading File: properties/police.txt
-[00:50:13] 
----------------------------------------
-[00:50:13] Running Grand Larceny - by the SA-MP team
-
-[00:50:13] ---------------------------------------
-
-[00:50:13] Number of vehicle models: 173
-[00:50:31] --- Server Shutting Down.
-[00:50:31]   |--  LS BeachSide Building Elevator destroyed
-[00:50:31]   |---------------------------------------------------
+[12:31:01] Number of vehicle models: 0
 
 ----------
 Loaded log file: "server_log.txt".
@@ -99,79 +61,24 @@ SA-MP Dedicated Server
 ----------------------
 v0.3.7-R2, (C)2005-2015 SA-MP Team
 
-[00:52:35] 
-[00:52:35] Server Plugins
-[00:52:35] --------------
-[00:52:35]  Loaded 0 plugins.
+[13:16:13] filterscripts = ""  (string)
+[13:16:13] 
+[13:16:13] Server Plugins
+[13:16:13] --------------
+[13:16:13]  Loading plugin: Shoebill
+[13:16:13]   > Shoebill 2.0 NativePlugin for SA-MP 0.3.7 by MK124, JoJLlmAn & 123marvin123
+[13:16:13]   > The Java VM has been successfully created.
+[13:16:14]   > Error: Couldn't create Shoebill object.
+[13:16:14]   > Please make sure that you use the correct launcher for this plugin.
+[13:16:14]   Loaded.
+[13:16:14]  Loaded 1 plugins.
 
-[00:52:35] 
-[00:52:35] Filterscripts
-[00:52:35] ---------------
-[00:52:35]   Loading filterscript 'gl_actions.amx'...
-[00:52:35]   Loading filterscript 'gl_realtime.amx'...
-[00:52:35]   Loading filterscript 'gl_property.amx'...
-[00:52:35] 
------------------------------------
-[00:52:35] Grand Larceny Property Filterscript		
-[00:52:35] -----------------------------------
+[13:16:14] 
+[13:16:14] Filterscripts
+[13:16:14] ---------------
+[13:16:14]   Loaded 0 filterscripts.
 
-[00:52:35]   Loading filterscript 'gl_mapicon.amx'...
-[00:52:35]   Loading filterscript 'ls_elevator.amx'...
-[00:52:35]   Loading filterscript 'attachments.amx'...
-[00:52:35]   Loading filterscript 'skinchanger.amx'...
-[00:52:35] 
---Admin Player Skin Changer Loaded
-
-[00:52:35]   Loading filterscript 'vspawner.amx'...
-[00:52:35] 
---Admin Vehicle Spawner Loaded
-
-[00:52:35]   Loading filterscript 'ls_mall.amx'...
-[00:52:35]   Loading filterscript 'ls_beachside.amx'...
-[00:52:35] 
-
-[00:52:35]   |---------------------------------------------------
-[00:52:35]   |--- LS BeachSide Filterscript
-[00:52:35]   |--  Script v1.03
-[00:52:35]   |--  19th April 2015
-[00:52:35]   |---------------------------------------------------
-[00:52:35]   |--  LS BeachSide Building Elevator created
-[00:52:35]   |---------------------------------------------------
-[00:52:35]   Loaded 10 filterscripts.
-
-[00:52:35] Loaded 3 vehicles from: vehicles/trains.txt
-[00:52:35] Loaded 3 vehicles from: vehicles/pilots.txt
-[00:52:35] Loaded 15 vehicles from: vehicles/lv_law.txt
-[00:52:35] Loaded 39 vehicles from: vehicles/lv_airport.txt
-[00:52:35] Loaded 255 vehicles from: vehicles/lv_gen.txt
-[00:52:35] Loaded 38 vehicles from: vehicles/sf_law.txt
-[00:52:35] Loaded 35 vehicles from: vehicles/sf_airport.txt
-[00:52:35] Loaded 353 vehicles from: vehicles/sf_gen.txt
-[00:52:35] Loaded 24 vehicles from: vehicles/ls_law.txt
-[00:52:35] Loaded 37 vehicles from: vehicles/ls_airport.txt
-[00:52:35] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
-[00:52:35] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
-[00:52:35] Loaded 71 vehicles from: vehicles/whetstone.txt
-[00:52:35] Loaded 168 vehicles from: vehicles/bone.txt
-[00:52:35] Loaded 61 vehicles from: vehicles/flint.txt
-[00:52:35] Loaded 96 vehicles from: vehicles/tierra.txt
-[00:52:35] Loaded 96 vehicles from: vehicles/red_county.txt
-[00:52:35] Total vehicles from files: 1781
-[00:52:35] Reading File: blank
-[00:52:35] Reading File: properties/houses.txt
-[00:52:35] Reading File: properties/businesses.txt
-[00:52:35] Reading File: properties/banks.txt
-[00:52:35] Reading File: properties/police.txt
-[00:52:35] 
----------------------------------------
-[00:52:35] Running Grand Larceny - by the SA-MP team
-
-[00:52:35] ---------------------------------------
-
-[00:52:35] Number of vehicle models: 173
-[00:52:52] --- Server Shutting Down.
-[00:52:52]   |--  LS BeachSide Building Elevator destroyed
-[00:52:52]   |---------------------------------------------------
+[13:16:14] Number of vehicle models: 0
 
 ----------
 Loaded log file: "server_log.txt".
@@ -181,21 +88,24 @@ SA-MP Dedicated Server
 ----------------------
 v0.3.7-R2, (C)2005-2015 SA-MP Team
 
-[01:11:03] filterscripts = ""  (string)
-[01:11:03] 
-[01:11:03] Server Plugins
-[01:11:03] --------------
-[01:11:03]  Loading plugin: Shoebill
-[01:11:03]   Failed.
-[01:11:03]  Loaded 0 plugins.
+[13:53:21] filterscripts = ""  (string)
+[13:53:21] 
+[13:53:21] Server Plugins
+[13:53:21] --------------
+[13:53:21]  Loading plugin: Shoebill
+[13:53:21]   > Shoebill 2.0 NativePlugin for SA-MP 0.3.7 by MK124, JoJLlmAn & 123marvin123
+[13:53:21]   > The Java VM has been successfully created.
+[13:53:23]   > Error: Couldn't create Shoebill object.
+[13:53:23]   > Please make sure that you use the correct launcher for this plugin.
+[13:53:23]   Loaded.
+[13:53:23]  Loaded 1 plugins.
 
-[01:11:03] 
-[01:11:03] Filterscripts
-[01:11:03] ---------------
-[01:11:03]   Loaded 0 filterscripts.
+[13:53:23] 
+[13:53:23] Filterscripts
+[13:53:23] ---------------
+[13:53:23]   Loaded 0 filterscripts.
 
-[01:11:03] Number of vehicle models: 0
-[01:11:11] --- Server Shutting Down.
+[13:53:23] Number of vehicle models: 0
 
 ----------
 Loaded log file: "server_log.txt".
@@ -205,17 +115,102 @@ SA-MP Dedicated Server
 ----------------------
 v0.3.7-R2, (C)2005-2015 SA-MP Team
 
-[01:13:35] filterscripts = ""  (string)
-[01:13:35] 
-[01:13:35] Server Plugins
-[01:13:35] --------------
-[01:13:35]  Loading plugin: Shoebill
-[01:13:35]   Failed.
-[01:13:35]  Loaded 0 plugins.
+[13:59:16] filterscripts = ""  (string)
+[13:59:16] 
+[13:59:16] Server Plugins
+[13:59:16] --------------
+[13:59:16]  Loading plugin: Shoebill
+[13:59:17]   > Shoebill 2.0 NativePlugin for SA-MP 0.3.7 by MK124, JoJLlmAn & 123marvin123
+[13:59:17]   > The Java VM has been successfully created.
+[13:59:18]   > Error: Couldn't create Shoebill object.
+[13:59:18]   > Please make sure that you use the correct launcher for this plugin.
+[13:59:18]   Loaded.
+[13:59:18]  Loaded 1 plugins.
 
-[01:13:35] 
-[01:13:35] Filterscripts
-[01:13:35] ---------------
-[01:13:35]   Loaded 0 filterscripts.
+[13:59:18] 
+[13:59:18] Filterscripts
+[13:59:18] ---------------
+[13:59:18]   Loaded 0 filterscripts.
 
-[01:13:35] Number of vehicle models: 0
+[13:59:18] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:06:15] filterscripts = ""  (string)
+[14:06:15] 
+[14:06:15] Server Plugins
+[14:06:15] --------------
+[14:06:15]  Loading plugin: Shoebill
+[14:06:15]   > Shoebill 2.0 NativePlugin for SA-MP 0.3.7 by MK124, JoJLlmAn & 123marvin123
+[14:06:15]   > The Java VM has been successfully created.
+[14:06:16]   > Error: Couldn't create Shoebill object.
+[14:06:16]   > Please make sure that you use the correct launcher for this plugin.
+[14:06:16]   Loaded.
+[14:06:16]  Loaded 1 plugins.
+
+[14:06:16] 
+[14:06:16] Filterscripts
+[14:06:16] ---------------
+[14:06:16]   Loaded 0 filterscripts.
+
+[14:06:16] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:14:11] filterscripts = ""  (string)
+[14:14:11] 
+[14:14:11] Server Plugins
+[14:14:11] --------------
+[14:14:11]  Loading plugin: Shoebill
+[14:14:11]   > Shoebill 2.0 NativePlugin for SA-MP 0.3.7 by MK124, JoJLlmAn & 123marvin123
+[14:14:12]   > The Java VM has been successfully created.
+[14:14:13]   > Error: Couldn't create Shoebill object.
+[14:14:13]   > Please make sure that you use the correct launcher for this plugin.
+[14:14:13]   Loaded.
+[14:14:13]  Loaded 1 plugins.
+
+[14:14:13] 
+[14:14:13] Filterscripts
+[14:14:13] ---------------
+[14:14:13]   Loaded 0 filterscripts.
+
+[14:14:13] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:16:23] filterscripts = ""  (string)
+[14:16:23] 
+[14:16:23] Server Plugins
+[14:16:23] --------------
+[14:16:23]  Loading plugin: Shoebill
+[14:16:23]   > Shoebill 2.0 NativePlugin for SA-MP 0.3.7 by MK124, JoJLlmAn & 123marvin123
+[14:16:23]   > The Java VM has been successfully created.
+[14:16:24]   > Error: Couldn't create Shoebill object.
+[14:16:24]   > Please make sure that you use the correct launcher for this plugin.
+[14:16:24]   Loaded.
+[14:16:24]  Loaded 1 plugins.
+
+[14:16:24] 
+[14:16:24] Filterscripts
+[14:16:24] ---------------
+[14:16:24]   Loaded 0 filterscripts.
+
+[14:16:24] Number of vehicle models: 0

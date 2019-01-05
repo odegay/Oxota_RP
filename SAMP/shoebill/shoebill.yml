@@ -9,7 +9,7 @@ folder:
     gamemodes: gamemodes
 
 # Let dependencymanager try to resolve needed dependencies
-resolveDependencies: true
+resolveDependencies: false
 
 # Allows to override the artifact from maven repo with local file
 allowArtifactOverrideIgnoreGroupId: true

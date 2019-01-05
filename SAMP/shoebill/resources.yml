@@ -1,10 +1,14 @@
 
 repositories:
-  - id: central
-    url: http://repo1.maven.org/maven2/
 
-  - id: gtaun-public-repo
-    url: http://repo.gtaun.net/content/groups/public
+  - id: gtaun-local-repo
+    url: file://repository/net/gtaun/
+    
+  - id: central
+    url: https://repo.maven.apache.org/maven2/
+
+#  - id: gtaun-public-repo
+#    url: http://repo.gtaun.net/content/groups/public
 
 # When to update cache?
 # Options: always / daily / interval:[minutes]
@@ -15,11 +19,13 @@ offlineMode: false
 
 # Your needed runtimes
 runtimes:
-  - net.gtaun:shoebill-runtime:1.2-SNAPSHOT
-  - net.gtaun:shoebill-common:1.0-SNAPSHOT
+  - net.gtaun:shoebill-runtime:2.0-RC
+#  - net.gtaun:shoebill-common:1.0-SNAPSHOT
+  - net.gtaun:shoebill-common:2.0-RC
 
 # Additional plugins
 plugins:
 
 # Your gamemode
-gamemode: example-lvdm-1.0-SNAPSHOT
+#gamemode: example-lvdm-1.0-SNAPSHOT
+gamemode: oxotarpserver-1.0-SNAPSHOT
