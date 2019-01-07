@@ -6,7 +6,7 @@
 
     <groupId>org.reguhoop</groupId>
     <artifactId>oxotarpserver</artifactId>
-    <version>0.1</version>
+    <version>1.0-SNAPSHOT</version>
 
     <properties>
 		<java.version>1.8</java.version>

@@ -1,0 +1,120 @@
+1. Put SSH keys
+2. apt-get update
+3. change sshd default port
+4. create samp folder
+5. download samp
+
+6. install 32bit support
+sudo dpkg --add-architecture i386
+sudo apt-get install libXX:i386
+sudo apt-get install libattr1-dev:i386
+sudo apt-get update
+sudo apt-get install lib32stdc++6
+
+MAVEN:
+#For now this rep is added as a replacement for not working Shoebill artifactory
+<repositories>
+		<repository>
+			<id>gtaun-local-repo</id>
+			<name>GTAUN Local Repository</name>
+			<url>file://d:/maven/repo/net/gtaun/</url>
+		</repository>
+
+		<!-- BELOW IS OPTIONAL -->
+		<repository>
+			<id>maven-central</id>
+			<name>Maven Central Repository1</name>
+			<url>http://central.maven.org/maven2/</url>
+		</repository>
+	</repositories>
+<!-- sometimes you will need to add this dependency -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.8.1</version>
+        </dependency>
+#install compilled jar to a local repository
+mvn install
+#setup local repository
+#in maven conf folder put following configuration instead of commented lines:
+#You have to create this repo first
+<localRepository>D:/Maven/Repo</localRepository>
+#REFERENCE NOT FOUND WHEN IMPORTING KOTLIN CLASSES
+mvn kotlin:compile
+mvn package
+#GITHUB MAVEN REPO
+https://devcolibri.com/%D0%BA%D0%B0%D0%BA-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D1%81%D0%B2%D0%BE%D0%B9-maven-repository-%D0%BD%D0%B0-github/
+1. Create a separate REP
+2. fill it with any stuff because plugin doesn't work with an empty repo
+3. follow steps provided in the article
+4. if it is unreachible - see pom and plugins section
+
+
+JAVA:
+
+
+
+mysql
+install mysql
+fix root user issues
+
+creating a web-server
+create a simple html page
+setup certificates with certbot
+don't forget to get certificates for both www.xyz.xyz and w\o www
+
+#startup.sh
+#startup.sh should contain this line in the very begining: #!/usr/bin/env sh
+
+
+DOCKER:
+install docker
+docker pull debian (or docker pull debian:stretch)
+Kill all images: docker rm $(docker ps -a -q -f status=exited)
+#!/bin/bash
+# Delete all containers
+docker rm $(docker ps -a -q)
+# Delete all images
+docker rmi $(docker images -q)
+
+docker 32 bit support:
+#32bit support
+RUN dpkg --add-architecture i386
+RUN apt-get update
+RUN apt-get -y install libstdc++6:i386
+RUN apt-get -y install libgcc1:i386
+RUN apt-get -y install zlib1g:i386 
+RUN apt-get -y install  libncurses5:i386
+RUN  apt-get -y install lib32stdc++6
+RUN  apt-get update
+#END 32bit support
+
+#Build a docker image not from the folder where dockerfile is placed
+docker build -t oxotarp -f docker/Dockerfile .
+#stop container
+docker kill <containerID>
+#start detached container (run in background)
+docker run -d oxotarp
+#start container with command line available inside it (hard debug)
+docker run -i -t oxotarp
+#RUN with mounting a volume
+docker run -v D:/GIT/Oxota_RP/SAMP:/app/samp03 oxotarp
+#latest usage
+docker run -v D:/GIT/Oxota_RP/SAMP:/app/samp03 -i oxotarp
+#docker ShoebillPlugin buildmachine
+docker build -t orpbm -f buildmachine/Dockerfile .
+docker run -v D:/GIT/Shoebill/ShoebillPLugin/build/:/app/ShoebillPlugin/build/ -i orpbm
+
+GIT:
+#hide changes
+git stash 
+#return hidden changes
+git stash apply
+
+
+C++. Shoebill plugin
+#install 32 bit support
+see above
+#install c++ compiler
+sudo apt-get install gcc-multilib g++-multilib
+sudo apt-get install build-essential
