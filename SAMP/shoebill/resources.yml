@@ -1,8 +1,8 @@
 
 repositories:
 
-  - id: gtaun-local-repo
-    url: file://repository/net/gtaun/
+  - id: oxotarp-mvn-repo
+    url: https://raw.github.com/odegay/OxotaRP_Arts/mvn-repo/            
     
   - id: central
     url: https://repo.maven.apache.org/maven2/
@@ -28,4 +28,4 @@ plugins:
 
 # Your gamemode
 #gamemode: example-lvdm-1.0-SNAPSHOT
-gamemode: oxotarpserver-1.0-SNAPSHOT
+gamemode: oxotarpserver-0.1

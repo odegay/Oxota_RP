@@ -1,15 +1,4 @@
-# Use an official Python runtime as a parent image
-FROM i386/debian
-
-#update
-RUN apt-get update
-#INSTALL JAVA RUNTIME
-RUN apt-get install -y default-jre
-#update
-RUN apt-get update
-#install wget
-RUN apt-get install -y wget
-#RUN apt-get install -y maven
+FROM oxotarpcore
 # Set the working directory to /app
 WORKDIR /app
 
@@ -31,7 +20,7 @@ RUN wget https://raw.github.com/odegay/OxotaRP_Arts/mvn-repo/net/gtaun/shoebill-
 RUN wget https://raw.github.com/odegay/OxotaRP_Arts/mvn-repo/net/gtaun/shoebill-launcher/2.0/shoebill-launcher-2.0.jar
 #Download and install Oxota_RP java mode
 #!!!FIX This should also be fixed as just done to check other parts of the plugin
-WORKDIR /app/samp03/shoebill/plugins
+WORKDIR /app/samp03/shoebill/gamemodes
 RUN wget https://raw.github.com/odegay/OxotaRP_Arts/mvn-repo/org/reguhoop/oxotarpserver/0.1/oxotarpserver-0.1.jar
 
 #Setting up Shoebill plugin

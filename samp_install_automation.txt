@@ -104,6 +104,10 @@ docker run -v D:/GIT/Oxota_RP/SAMP:/app/samp03 -i oxotarp
 #docker ShoebillPlugin buildmachine
 docker build -t orpbm -f buildmachine/Dockerfile .
 docker run -v D:/GIT/Shoebill/ShoebillPLugin/build/:/app/ShoebillPlugin/build/ -i orpbm
+#latest
+docker build -t oxotarpcore -f OxotaRP_Docker_Core/Dockerfile .
+docker build --no-cache -t oxotarp -f OxotaRP_Docker/Dockerfile .
+
 
 GIT:
 #hide changes

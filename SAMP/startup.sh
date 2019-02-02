@@ -23,4 +23,5 @@ export LD_LIBRARY_PATH=.:$JRE_HOME/lib/i386:$JRE_HOME/lib/i386/client:$JRE_HOME/
 #cp /app/samp03/shoebill/bootstrap/test/shoebill-launcher-2.0.jar /usr/lib/jvm/default-java/jre/lib/ext/
 #cp /app/samp03/shoebill/bootstrap/test/shoebill-dependency-manager-2.0.jar /usr/lib/jvm/default-java/jre/lib/ext/
 
+
 ./samp03svr
